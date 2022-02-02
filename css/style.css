@@ -1,0 +1,199 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;1,600&display=swap");
+
+@font-face {
+	font-family: "Marsden-S";
+	src: url("../fonts/Marsden-S-Regular.woff2") format("woff2"), url(../fonts/Marsden-S-Regular.woff);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: " Marsden-S";
+	src: url("../fonts/Marsden-S-Bold.woff2") format("woff2 "), url(../fonts/Marsden-S-Bold.woff);
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Marsden-S";
+	src: url("../fonts/Marsden-S-Medium.woff2") format("woff2"), url(../fonts/Marsden-S-Medium.woff);
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Montserrat Alternates", sans-serif;
+}
+
+.title {
+	color: rgb(0, 0, 0);
+	font-size: 65px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px rgb(0, 0, 0);
+	font-family: "Marsden-S", sans-serif;
+}
+
+.new {
+	color: rgb(105, 11, 11);
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(0, 0, 0);
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	font-family: "Marsden-S", sans-serif;
+}
+
+.block {
+	color: rgb(5, 5, 163);
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: "Marsden-S", sans-serif;
+	word-spacing: 8px;
+	line-height: 1.5;
+}
+.block .foot {
+	color: rgb(117, 3, 26);
+	font-size: 30px;
+	text-transform: capitalize;
+}
+
+.subtitle {
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 1px;
+	color: rgb(21, 71, 21);
+	text-indent: 40px;
+	text-decoration: underline;
+}
+.start-paragrahp {
+	font-size: 23px;
+	color: red;
+	font-weight: 700;
+	font-family: "Marsden-S", sans-serif;
+	text-align: center;
+}
+
+.content {
+	color: rgb(49, 3, 82);
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-indent: 20px;
+	font-weight: 400;
+	font-family: "Marsden-S", sans-serif;
+}
+.content .content-centr {
+	font-weight: 700;
+	font-size: 15px;
+}
+.content span {
+	font-size: 30px;
+	color: mediumslateblue;
+	font-style: oblique;
+}
+
+.content-footer {
+	color: rgb(10, 128, 20);
+}
+.content-footer span {
+	color: red;
+	font-style: oblique;
+	text-decoration: underline;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.rot {
+	text-align: center;
+}
+
+.list {
+	color: rgb(41, 3, 3);
+	color: rgb(5, 5, 163);
+	text-align: center;
+	font-size: 17px;
+	font-weight: 700;
+	font-family: "Marsden-S", sans-serif;
+	word-spacing: 8px;
+	line-height: 1.3;
+}
+
+.list .column {
+	color: red;
+	text-decoration: line-through;
+}
+
+.paragrahp-start {
+	color: rgb(40, 3, 66);
+	font-size: 19px;
+	letter-spacing: 2px;
+	text-indent: 20px;
+	font-weight: 700;
+	font-family: "Montserrat Alternates", sans-serif;
+}
+
+.border {
+	font-family: "Marsden-S", sans-serif;
+	font-size: 25px;
+	color: rgb(92, 67, 67);
+	text-shadow: 2px 2px 5px rgb(0, 0, 0);
+	line-height: 1.3;
+}
+
+.centr-content {
+	font-size: 12px;
+	font-weight: 700;
+	color: green;
+	text-transform: lowercase;
+	letter-spacing: 3px;
+	font-family: "Marsden-S", sans-serif;
+}
+
+.centr-content-text {
+	font-size: 27px;
+	color: lightslategray;
+	line-height: 1.5;
+	text-align: right;
+	font-weight: 700;
+}
+
+.centr-title {
+	font-size: 27px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.centr-content ol {
+	font-family: "Marsden-S", sans-serif;
+	color: rgb(112, 148, 39);
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-indent: 25px;
+	letter-spacing: 10px;
+}
+.footer-top {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.footer p {
+	font-size: 20px;
+	font-weight: 400;
+	color: rgb(81, 0, 134);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 2;
+}
+.footer span {
+	font-size: 17px;
+	color: red;
+	font-weight: 700;
+}
